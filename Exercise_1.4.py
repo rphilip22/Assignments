@@ -12,7 +12,10 @@ def get_tax_bracket(income):
         bracket = "High (30%)"
 
     # Bonus: ternary check for deduction eligibility
-    bracket = bracket + " (Deduction Eligible)" if income % 2 == 0 else bracket
+    if income % 2 == 0:
+        bracket = bracket + " (Deduction Eligible)"  
+    
+    else: bracket
 
     return bracket
 
