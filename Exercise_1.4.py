@@ -1,4 +1,5 @@
 def get_tax_bracket(income):
+    
     # Handle invalid income
     if income < 0:
         return "Invalid income."
