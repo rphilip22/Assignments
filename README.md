@@ -6,6 +6,7 @@
 
 ## Exercise_1.3
 Description
+
 This program prompts the user for their full name and prints a formatted greeting.  
 It demonstrates basic Python concepts such as functions, string manipulation, default parameters, and user input.
 
@@ -30,6 +31,7 @@ How the Program Works
 3. The greeting is printed to the console.
 
 Sample Run
+
 Input:
 What's your full name?   john doe
 
@@ -38,6 +40,7 @@ Hello, John (Customer)!
 
 ## Exercise_1.4
 Description
+
 This program calculates a user's tax bracket and estimated tax based on their income.  
 It demonstrates core Python concepts including functions, conditionals, return values, user input, and basic arithmetic.
 
@@ -66,6 +69,7 @@ How the Program Works
    - Calculates and prints the estimated tax
 
 Sample Run
+
 Input:
 Enter your income: 50000
 
