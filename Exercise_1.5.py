@@ -18,8 +18,9 @@ match name:
 # Print result
 print(f"Product: {name} | Category: {category}")
 
+#Helper function
 def is_profitable(revenue, cost):
-    return revenue > cost   #helper function
+    return revenue > cost
 
 def main():
     # Get inputs
