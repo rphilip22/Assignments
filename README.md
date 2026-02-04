@@ -1,8 +1,69 @@
 ## Exercise_1.1
+Description: This program calculates the profit and profit margin for a business based on user-provided revenue and cost values.  
+It demonstrates basic Python concepts such as user input, arithmetic operations, conditional statements, and formatted output.
 
+Features
+- Prompts the user for revenue and cost amounts
+- Calculates profit and rounds it to two decimal places
+- Calculates profit margin as a percentage
+- Validates revenue to prevent division by zero
+- Displays formatted financial results
+
+How the Program Works
+
+1. The user is prompted to enter the revenue amount.
+2. The user is prompted to enter the cost amount.
+3. Profit is calculated as:
+
+Sample Run
+
+Input:
+
+Please enter the revenue amount: 2500
+Please enter the cost amount: 1750
+
+Output:
+
+Profit = $750.0 | Margin = 30.0%
 
 ## Exercise_1.2
+Description: This program evaluates a user's credit score and determines loan eligibility based on standard credit score ranges.  
+It demonstrates conditional logic using `if`, `elif`, and `else` statements, along with user input and formatted output.
 
+Features
+- Prompts the user to enter a credit score
+- Validates that the credit score is within the acceptable range (300–850)
+- Categorizes the credit score into risk levels
+- Displays loan approval status and interest rate information
+- Uses formatted strings for clear output
+
+Credit Score Rules
+
+| Credit Score Range | Classification | Loan Decision |
+|-------------------|----------------|----------------|
+| Below 300 or above 850 | Invalid | Not processed |
+| 300 – 599 | Poor | Loan denied |
+| 600 – 699 | Fair | Conditionally approved |
+| 700 – 749 | Good | Approved with review |
+| 750 – 850 | Excellent | Approved |
+
+How the Program Works
+
+1. The user enters their credit score.
+2. The program checks whether the score is valid.
+3. Based on the score range, the program prints:
+   - Credit score classification
+   - Loan approval decision
+   - Interest rate information (if applicable)
+  
+Sample Run
+
+Input:
+
+Please enter your credit score: 720
+
+Output:
+Your credit score of 720 is good. Hence, your loan is approved with review. Interest Rate - Low
 
 ## Exercise_1.3
 Description: This program prompts the user for their full name and prints a formatted greeting.  
