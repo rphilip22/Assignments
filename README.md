@@ -77,3 +77,45 @@ Output:
 Your bracket: Medium (20%) (Deduction Eligible). Estimated tax: 10000.0
 
 ## Exercise_1.5
+Description: This project categorizes products based on their name and determines business decisions using revenue and cost data.  
+It demonstrates Python fundamentals including string manipulation, pattern matching with `match`, functions, conditionals, and basic business logic.
+
+The project is divided into two parts:
+1. Product margin categorization
+2. Bonus business decision tool
+
+Part 1: Product Margin Categorization
+
+Overview: The program prompts the user for a product name, cleans the input, and categorizes the product into a margin level using Python’s `match` statement.
+
+Features
+- Prompts for a product name
+- Strips leading and trailing whitespace
+- Converts input to lowercase for consistent matching
+- Uses `match` with multiple cases and conditions
+- Assigns a margin category
+- Prints a formatted summary
+
+Categorization Rules
+- **High Margin**
+  - `"electronics"`
+  - `"gadget"`
+  - Any product name starting with `"tech"`
+- **Medium Margin**
+  - `"clothing"`
+  - `"apparel"`
+- **Low Margin**
+  - `"food"`
+  - `"grocery"`
+- **Uncategorized**
+  - Any other product name
+
+Sample Run
+
+Input:
+
+What's the product name?  Tech Phone  
+
+Output:
+
+Product: tech phone | Category: High Margin
