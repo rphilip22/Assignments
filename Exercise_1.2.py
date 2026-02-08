@@ -1,4 +1,6 @@
-credit_score = int(input("Please enter your credit score: "))
+credit_score = int(input("Please enter your credit score: ")) #asking user for credit score
+
+# Evaluate credit score and provide loan decision
 if credit_score < 300 or credit_score > 850:
     print(f"Your credit score of {credit_score} is invalid.")
 elif credit_score < 600:
